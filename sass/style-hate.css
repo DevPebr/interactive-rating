@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  background-color: rgba(5, 5, 5, 0.986);
+}
+
+* body main {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 20px;
+  background-color: #121417;
+}
+
+* body main img {
+  width: 162px;
+  height: 108px;
+  margin-top: 30px;
+}
+
+* body main .hate-text {
+  color: #fb7413;
+  margin-top: 20px;
+  padding: 5px 25px;
+  border-radius: 20px;
+  font-weight: 400;
+  background-color: #252d37;
+  letter-spacing: 0.050rem;
+}
+
+* body main h1 {
+  color: white;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+* body main .to-thank {
+  color: #7c8798;
+  width: 85%;
+  line-height: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=style-hate.css.map */

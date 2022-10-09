@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./sass/style.css">
+</head>
+<body>
+
+  <main class="container">
+  <!-- Rating state start -->
+
+  <div class="container-img">
+      <img src="./images/icon-star.svg" alt="star-icon" class="star">
+  </div>
+
+  <section class="text-main">
+    <h1>How did we do?</h1>
+  
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+  </section>
+
+<section class="btn-section">
+  <button type="button" value="1" class="btn" id="btnValue" onclick="capValue1()">1</button>
+  <button type="button" value="2" class="btn" id="btnValue2" onclick="capValue2()">2</button>
+  <button type="button" value="3" class="btn" id="btnValue3" onclick="capValue3()">3</button>
+  <button type="button" value="4" class="btn" id="btnValue4" onclick="capValue4()">4</button>
+  <button type="button" value="5" class="btn" id="btnValue5" onclick="capValue5()">5</button>
+
+</section>
+<div class="submit-btn">
+  <a href="./hate.html"><button type="button" class="btn-submit" id="btnSubmit">Submit</button> </a>
+</div>
+  </main>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+
+  <!--Código abaixo-->
+
+  <!-- Thank you state end -->
+<script src="./scripts/script.js"></script>
+</body>
+</html>

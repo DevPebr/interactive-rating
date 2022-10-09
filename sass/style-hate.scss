@@ -1,0 +1,65 @@
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    body {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-family: 'Overpass', sans-serif;
+        background-color: rgba(5, 5, 5, 0.986);
+
+        main {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 25rem;
+            height: 25rem;
+            border-radius: 20px;
+            background-color: $very-dark-blue;
+
+
+
+            img {
+                width: 162px;
+                height: 108px;
+                margin-top: 30px;
+                
+            }
+
+            .hate-text {
+                color: $orange;
+                margin-top: 20px;
+                padding: 5px 25px;
+                border-radius: 20px;
+                font-weight: 400;
+                background-color: $dark-blue;
+                letter-spacing: 0.050rem;
+            }
+
+            h1 {
+                color: $white;
+                font-weight: 400;
+                margin-top: 20px;
+            }
+
+            .to-thank {
+                color: $medium-grey;
+                width: 85%;
+                line-height: 25px;
+                margin-top: 20px;
+                text-align: center;
+            }
+        } // main
+    } // body
+} // *
